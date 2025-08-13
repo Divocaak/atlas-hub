@@ -33,10 +33,14 @@
 		scroll-behavior: smooth;
 
 		--white: #ffffff;
-		--black: #000000;
-		--red: #f85d65;
+		--orange: #E56F35;
+		--blue: #303586;
+		--light-blue: #6e9ea1;
+		--green: #8bac43;
+		--purple: #976ea2;
+		--pink: #de77a4;
 
-		--general-padding: 5rem;
+		--general-padding: 22rem;
 
 		/* vw = px value / 19.2 */
 		/* rem = px value / 16 */
@@ -65,18 +69,10 @@
 		font-variant: normal; */
 	}
 
-	:global(h1, p, a) {
-		color: var(--black);
+	:global(h1, h2, h3, h4, p, b, a) {
+		color: var(--blue);
 		/* line-height: 1.5em;
 		letter-spacing: 0.15em; */
-	}
-
-	:global(h1) {
-		font-size: var(--fs-48);
-	}
-
-	:global(p, a) {
-		font-size: var(--fs-24);
 	}
 
 	:global(a) {
@@ -85,10 +81,10 @@
 	}
 
 	:global(a) {
-		color: var(--black);
+		color: var(--blue);
 	}
 
 	:global(a:hover) {
-		color: var(--red);
+		color: var(--orange);
 	}
 </style>
