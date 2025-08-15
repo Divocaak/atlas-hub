@@ -37,7 +37,7 @@
 
 	h1 {
 		font-weight: 600;
-		font-size: 32px;
+		font-size: var(--fs-32);
 		line-height: 120%;
 	}
 
@@ -53,15 +53,25 @@
 
 	.content p {
 		font-weight: 400;
-		font-size: 18px;
+		font-size: var(--fs-18);
 		line-height: 150%;
-        margin: 1rem 0;
+		margin: 1rem 0;
 	}
 
 	.content a {
 		font-family: 'Fraunces', serif;
 		font-weight: 400;
-		font-size: 18px;
+		font-size: var(--fs-18);
 		line-height: 120%;
+	}
+
+	@media (max-width: 768px) {
+		.wrapper {
+			flex-direction: column;
+		}
+
+		.date {
+			margin-bottom: 1rem;
+		}
 	}
 </style>

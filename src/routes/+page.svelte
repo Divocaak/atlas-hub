@@ -68,7 +68,7 @@
 	</div>
 </div>
 <div class="content-wrapper" id="o-projektu">
-	<Header heading="o projektu" subheading="Mykoversum" subheadingClr="var(--green)" />
+	<Header heading="o&nbsp;projektu" subheading="Mykoversum" subheadingClr="var(--green)" />
 	<img src="/about.jpg" alt="about" />
 	<div class="wrapper">
 		<b>
@@ -99,10 +99,24 @@
 		<div class="bg-img" style="background-image: url('/creators/4.jpg');"></div>
 		<div class="bg-img" style="background-image: url('/creators/5.jpg');"></div>
 	</div>
+	<div class="carousel-wrapper">
+		<Carousel
+			slides={[
+				'/creators/0.jpg',
+				'/creators/1.jpg',
+				'/creators/2.jpg',
+				'/creators/3.jpg',
+				'/creators/4.jpg',
+				'/creators/5.jpg'
+			]}
+			aspectRatio={1 / 1}
+			slideWidth={100}
+		/>
+	</div>
 	<div class="wrapper">
 		<b>
-			Každou houbu někdo objevil ve své fantazii - a zaznamenal ji tak,<br />
-			aby mohla růst i ve fantazii druhých.
+			Každou houbu někdo objevil ve své fantazii - a zaznamenal ji tak, aby mohla růst i ve fantazii
+			druhých.
 		</b>
 		<p>
 			Každá z 88 hub v Atlasu vznikla jako svébytné literárně-výtvarné dílo - od nápadu přes
@@ -199,9 +213,9 @@
 		je čistě náhodná&nbsp;-&nbsp;nebo vysněná.
 	</p>
 	<p class="footer">
-		&copy; 2025 Atlas hub - MgA. Věra Chovancová | Design:
+		&copy; 2025 Atlas hub - MgA. Věra Chovancová | Design:&nbsp;
 		<a href="https://www.voala.cz/" target="_blank" class="underlined">VOALA</a>
-		| Tvorba webu:
+		| Tvorba webu:&nbsp;
 		<a href="https://divokyvojtech.cz/" terget="_blank" class="underlined">Divoký Vojtěch</a><br />
 		<a href="/info" target="_blank" class="underlined">
 			Zpracování osobních údajů | Zásady použití cookies
@@ -236,7 +250,7 @@
 	.landing h1 {
 		color: var(--orange);
 		font-weight: 600;
-		font-size: 72px;
+		font-size: var(--fs-72);
 		line-height: 100%;
 		text-align: center;
 		text-transform: uppercase;
@@ -244,7 +258,7 @@
 
 	.landing h2 {
 		font-weight: 700;
-		font-size: 40px;
+		font-size: var(--fs-40);
 		line-height: 120%;
 		text-align: center;
 	}
@@ -286,7 +300,7 @@
 	.content-wrapper#program .wrapper a.underlined.inverted {
 		font-family: 'Fraunces', serif;
 		font-weight: 400;
-		font-size: 18px;
+		font-size: var(--fs-18);
 		line-height: 120%;
 	}
 
@@ -310,6 +324,10 @@
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
 		gap: 0.5rem;
+	}
+
+	.content-wrapper#tvurci .carousel-wrapper {
+		display: none;
 	}
 
 	.content-wrapper#tvurci .imgs-wrapper .bg-img {
@@ -354,14 +372,45 @@
 
 	.content-wrapper#footer .warning {
 		font-weight: 400;
-		font-size: 22px;
+		font-size: var(--fs-22);
 		line-height: 150%;
 		margin: 2rem 0;
 	}
 
 	.content-wrapper#footer .footer {
 		font-weight: 400;
-		font-size: 12px;
+		font-size: var(--fs-12);
 		line-height: 150%;
+	}
+
+	@media (max-width: 768px) {
+		.landing {
+			background-image: url('/landing/mobile.jpg');
+		}
+
+		.landing h1 {
+			font-size: var(--fs-32);
+		}
+
+		.landing h2 {
+			font-size: var(--fs-22);
+		}
+
+		.content-wrapper#program .wrapper {
+			align-items: start;
+		}
+
+		.content-wrapper#tvurci .imgs-wrapper {
+			display: none;
+		}
+		.content-wrapper#tvurci .carousel-wrapper {
+			display: block;
+		}
+
+		.content-wrapper#ochutnavky .wrapper,
+		.content-wrapper#kontakt .partners {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 </style>

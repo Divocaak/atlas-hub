@@ -15,4 +15,11 @@
     .wrapper{
         margin: 10rem;
     }
+
+    @media (max-width: 768px) {
+        .wrapper{
+            margin: 2rem;
+        }
+    }
+
 </style>

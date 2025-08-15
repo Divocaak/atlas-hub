@@ -2,14 +2,14 @@
 	export let showControls = false;
 	export let showIndicators = false;
 	export let slides;
+	export let aspectRatio = 16 / 9;
+	export let slideWidth = 75;
 
 	let current = 0;
 
 	let startX = 0;
 	let deltaX = 0;
 	let isDragging = false;
-
-	const slideWidth = 75;
 
 	// --- touch events ---
 	function handleTouchStart(e) {
@@ -59,7 +59,7 @@
 	const prev = () => (current = (current - 1 + slides.length) % slides.length);
 </script>
 
-<div class="carousel">
+<div class="carousel" style="--aspect-ratio: {aspectRatio}; --slide-width: {slideWidth}%">
 	<!-- svelte-ignore a11y_no_static_element_interactions -->
 	<div
 		class="slides"
@@ -92,6 +92,11 @@
 </div>
 
 <style>
+	:root {
+		--aspect-ratio: 16/9;
+		--slide-width: 75%;
+	}
+
 	.carousel {
 		position: relative;
 		overflow: hidden;
@@ -100,7 +105,7 @@
 		margin: auto;
 		user-select: none;
 
-        margin-bottom: 100px;
+		margin-bottom: 100px;
 	}
 
 	.slides {
@@ -109,8 +114,8 @@
 	}
 
 	.slide {
-		flex: 0 0 75%;
-		aspect-ratio: 16/9;
+		flex: 0 0 var(--slide-width);
+		aspect-ratio: var(--aspect-ratio);
 
 		touch-action: pan-y; /* allow vertical scroll */
 
@@ -120,6 +125,13 @@
 		background-size: cover;
 
 		margin: 0 2rem;
+	}
+
+	@media (max-width: 768px) {
+		.slide {
+			height: 200px;
+			margin: 0 1rem;
+		}
 	}
 
 	.control {

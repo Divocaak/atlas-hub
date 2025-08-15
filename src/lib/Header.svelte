@@ -27,7 +27,7 @@
 		margin: 0;
 
 		font-weight: 600;
-		font-size: 50px;
+		font-size: var(--fs-50);
 		line-height: 130%;
 		text-align: center;
 		text-transform: uppercase;
@@ -37,8 +37,15 @@
 		margin: 0;
 
 		font-weight: 600;
-		font-size: 32px;
+		font-size: var(--fs-32);
 		line-height: 130%;
 		text-align: center;
 	}
+
+	@media (max-width: 768px) {
+		.wrapper h1{
+			font-size: var(--fs-44);
+		}
+	}
+
 </style>

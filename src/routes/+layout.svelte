@@ -42,13 +42,28 @@
 		--fs-16: clamp(16px, 0.83vw, 1.5rem);
 		--fs-18: clamp(18px, 0.94vw, 1.75rem);
 		--fs-20: clamp(20px, 1.04vw, 2rem);
+		--fs-22: clamp(22px, 1.14vw, 1.375rem);
 		--fs-24: clamp(24px, 1.25vw, 2.5rem);
 		--fs-32: clamp(32px, 1.67vw, 3rem);
+		--fs-40: clamp(40px, 2.08vw, 2.5rem);
 		--fs-44: clamp(44px, 2.23vw, 2.75rem);
 		--fs-48: clamp(48px, 2.5vw, 3rem);
+		--fs-50: clamp(50px, 2.6vw, 3.125rem);
 		--fs-64: clamp(64px, 3.33vw, 4rem);
 		--fs-72: clamp(72px, 3.75vw, 4.5rem);
 		--fs-150: clamp(150px, 9.81vw, 9.37rem);
+	}
+
+	@media (max-width: 1200px) {
+		:global(:root) {
+			--general-padding: 16rem;
+		}
+	}
+
+	@media (max-width: 768px) {
+		:global(:root) {
+			--general-padding: 2rem;
+		}
 	}
 
 	:global(body) {
@@ -74,13 +89,13 @@
 
 	:global(b) {
 		font-weight: 700;
-		font-size: 22px;
+		font-size: var(--fs-22);
 		line-height: 160%;
 	}
 
 	:global(p) {
 		font-weight: 400;
-		font-size: 22px;
+		font-size: var(--fs-22);
 		line-height: 160%;
 	}
 

@@ -35,14 +35,14 @@
 		margin-bottom: 0;
 		font-family: 'Fraunces', serif;
 		font-weight: 600;
-		font-size: 32px;
+		font-size: var(--fs-32);
 		line-height: 130%;
 		margin-top: 1rem;
 	}
 
 	p.desc {
 		font-weight: 400;
-		font-size: 22px;
+		font-size: var(--fs-22);
 		line-height: 150%;
 		margin: 1rem 0;
 	}

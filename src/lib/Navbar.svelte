@@ -42,7 +42,6 @@
 
 		padding: 1rem 3rem;
 
-		/* position: relative; */
 		outline: 3rem solid transparent; /* space for the "border" */
 		outline-offset: -3rem; /* keeps it snug against the element */
 		box-shadow: 0 -3rem 0 0 transparent; /* fallback */
@@ -117,7 +116,7 @@
 	.overlay a {
 		font-family: 'Fraunces', serif; /* via Google Fonts */
 		font-weight: 600; /* SemiBold */
-		font-size: 34px;
+		font-size: var(--fs-32);
 		line-height: 270%;
 		text-align: center;
 		text-transform: uppercase;
