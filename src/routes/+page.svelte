@@ -12,7 +12,7 @@
 	<h1>Atlas<br />podivných&nbsp;hub<br />lesů&nbsp;a&nbsp;strání</h1>
 	<h2>Kniha,&nbsp;která se rozrůstá do ulic.</h2>
 	<h1>26. 9. - 28. 11. 2025</h1>
-	<h2>Vstup zdarma</h2>
+	<h2>Výstava ilustrací z knihy</h2>
 </div>
 
 <div class="content-wrapper" id="program">
@@ -29,7 +29,7 @@
 	/>
 	<Event
 		date="říjen - listopad"
-		label="Výtvarné workshopy<br>pro žáky základních škol<br>a výtvarná soutěž."
+		label="Výtvarné workshopy<br>pro žáky základních škol<br>a výtvarná soutěž"
 		desc="Téma: Houba z fantazie<br>
 				Lektorky: studentky SUPŠ<br>
 				a pedagožka Věra Chovancová<br>
@@ -82,9 +82,9 @@
 		</p>
 		<p>
 			Po šesti letech tvorby vychází autorská kniha plná fantazijních hub, bizarních názvů, hravých
-			textů a ilustrací. A ta ožívá při slavnostním křtu, výstavách a workshopech pro školy - a také
+			textů a ilustrací. A ta ožívá při slavnostním křtu, výstavách a workshopech pro školy a také
 			v unikátní galerii pod širým nebem: polepeném „Houbobusu“ a výtvarně upravené zastávce č. 14.
-			Tentokrát galerie nečeká na návštěvníky - vyjíždí sama za nimi.
+			Tentokrát galerie nečeká na návštěvníky, vyjíždí sama za nimi.
 		</p>
 		<p>Rodí se Mykoversum - organismus, který prorůstá městem a zve všechny ke hře.</p>
 	</div>
@@ -115,7 +115,7 @@
 	</div>
 	<div class="wrapper">
 		<b>
-			Každou houbu někdo objevil ve své fantazii - a zaznamenal ji tak, aby mohla růst i ve fantazii
+			Každou houbu někdo objevil ve své fantazii a zaznamenal ji tak, aby mohla růst i ve fantazii
 			druhých.
 		</b>
 		<p>
@@ -124,10 +124,10 @@
 		</p>
 		<p>
 			Za vznikem knihy a celého projektu stojí 54 studentů a pedagogů oboru Užitá malba SUPŠ sv.
-			Anežky České - oboru s více než třicetiletou tradicí, který se mění a roste skrze své lidi.
+			Anežky České, oboru s více než třicetiletou tradicí, který se mění a roste skrze své lidi.
 		</p>
 		<p>
-			Vizuální identitu vtisklo projektu grafické studio Voala - s respektem k jemnosti, humoru a
+			Vizuální identitu vtisklo projektu grafické studio Voala s respektem k jemnosti, humoru a
 			rukopisu každé houby.
 		</p>
 	</div>
@@ -386,6 +386,8 @@
 	@media (max-width: 768px) {
 		.landing {
 			background-image: url('/landing/mobile.jpg');
+			background-size: cover;
+			background-attachment: scroll;
 		}
 
 		.landing h1 {
