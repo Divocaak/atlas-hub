@@ -6,34 +6,26 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<!-- For Fraunces (serif) -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&display=swap"
+		rel="stylesheet"
+	/>
+	<!-- For body text replacement for Aktiv Grotesk -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+		rel="stylesheet"
+	/>
 </svelte:head>
 
 {@render children?.()}
 
 <style lang="scss">
-	/* @font-face {
-		font-family: 'NeueMachina';
-		src: url('/fonts/NeueMachina-Light.otf') format('opentype');
-		font-weight: 300;
-	}
-
-	@font-face {
-		font-family: 'NeueMachina';
-		src: url('/fonts/NeueMachina-Regular.otf') format('opentype');
-		font-weight: 400;
-	}
-
-	@font-face {
-		font-family: 'NeueMachina';
-		src: url('/fonts/NeueMachina-Ultrabold.otf') format('opentype');
-		font-weight: 800;
-	} */
-
 	:global(:root) {
 		scroll-behavior: smooth;
 
 		--white: #ffffff;
-		--orange: #E56F35;
+		--orange: #e56f35;
 		--blue: #303586;
 		--light-blue: #6e9ea1;
 		--green: #8bac43;
@@ -62,17 +54,34 @@
 	:global(body) {
 		margin: 0;
 		background-color: var(--white);
-
-		/* font-family: 'NeueMachina', sans-serif;
-		letter-spacing: 0px;
-		font-style: normal;
-		font-variant: normal; */
 	}
 
 	:global(h1, h2, h3, h4, p, b, a) {
 		color: var(--blue);
-		/* line-height: 1.5em;
-		letter-spacing: 0.15em; */
+	}
+
+	:global(h1, h2, h3, h4, h5, h6) {
+		font-family: 'Fraunces', serif;
+		letter-spacing: 0;
+		margin: 0;
+	}
+
+	:global(p, b) {
+		font-family: 'Roboto', sans-serif;
+		letter-spacing: 0;
+		margin: 0;
+	}
+
+	:global(b) {
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 160%;
+	}
+
+	:global(p) {
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 160%;
 	}
 
 	:global(a) {
@@ -86,5 +95,17 @@
 
 	:global(a:hover) {
 		color: var(--orange);
+	}
+
+	:global(a.underlined) {
+		text-decoration: underline;
+	}
+
+	:global(a.inverted) {
+		color: var(--orange);
+	}
+
+	:global(a.inverted:hover) {
+		color: var(--light-blue);
 	}
 </style>
