@@ -7,7 +7,7 @@
 
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
-<div class="wrapper" on:click={() => window.open(href)}>
+<div class="wrapper" on:click={() => window.open(href, "_blank")}>
 	<div class="thumbnail" style="background-image: url('{thumbnail}');"></div>
 	<p class="label">{@html label}</p>
 	<p class="desc">{@html desc}</p>

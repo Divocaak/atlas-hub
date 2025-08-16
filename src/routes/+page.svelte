@@ -10,17 +10,20 @@
 
 <div class="landing">
 	<h1>Atlas<br />podivných&nbsp;hub<br />lesů&nbsp;a&nbsp;strání</h1>
-	<h2>Kniha,&nbsp;která se rozrůstá do ulic.</h2>
+	<h2>Kniha,&nbsp;která se rozrůstá do&nbsp;ulic.</h2>
 	<h1>26. 9. - 28. 11. 2025</h1>
-	<h2>Výstava ilustrací z knihy</h2>
 </div>
 
 <div class="content-wrapper" id="program">
-	<Header heading="program" subheading="Calendarium vium" />
+	<Header heading="program" subheading="Calendarium vivum" />
+	<b class="catch">
+		Když kniha prorůstá městem, začnou se dít věci.<br />
+		Sledujte, kdy a kde se Mykoversum zjeví příště.
+	</b>
 	<Event
 		date="26. 9. od 14:00"
 		label="Slavnostní křest knihy<br>a vernisáž ilustrací"
-		desc="Za přítomnosti autorů, hudby i hub."
+		desc="Za přítomnosti autorů, hudby i&nbsp;hub."
 	/>
 	<Event
 		date="26. 9. - 28. 11."
@@ -43,16 +46,12 @@
 		isLast={true}
 	/>
 	<div class="wrapper">
-		<b>
-			Když kniha prorůstá městem, začnou se dít věci.<br />
-			Sledujte, kdy a kde se Mykoversum zjeví příště.
-		</b><br />
 		<a
 			href="https://www.knih-ck.cz/cz/mestska-knihovna-cesky-krumlov/"
 			target="_blank"
 			class="underlined inverted"
 		>
-			Městská knihovna v Českém Krumlově
+			Městská knihovna v&nbsp;Českém Krumlově
 		</a>
 		<p>
 			Výstavy jsou přístupné během
@@ -73,18 +72,18 @@
 	<div class="wrapper">
 		<b>
 			V Krumlově vyrostly houby, jaké svět dosud nespatřil.<br />
-			Nezrodily se ze spor, ale z imaginace.
+			Nezrodily se ze spor, ale z&nbsp;imaginace.
 		</b>
 		<p>
-			Atlas podivných hub lesů a strání je výtvarně-literární projekt studentů a pedagogů oboru
-			Užitá malba Střední uměleckoprůmyslové školy sv. Anežky České. Propojuje umění, školu a
-			veřejný prostor v jedinečný kulturní happening.
+			Atlas podivných hub lesů a&nbsp;strání je výtvarně-literární projekt studentů a&nbsp;pedagogů
+			oboru Užitá malba Střední uměleckoprůmyslové školy sv.&nbsp;Anežky České. Propojuje umění,
+			školu a veřejný prostor v&nbsp;jedinečný kulturní happening.
 		</p>
 		<p>
 			Po šesti letech tvorby vychází autorská kniha plná fantazijních hub, bizarních názvů, hravých
 			textů a ilustrací. A ta ožívá při slavnostním křtu, výstavách a workshopech pro školy a také
-			v unikátní galerii pod širým nebem: polepeném „Houbobusu“ a výtvarně upravené zastávce č. 14.
-			Tentokrát galerie nečeká na návštěvníky, vyjíždí sama za nimi.
+			v&nbsp;unikátní galerii pod širým nebem: polepeném „Houbobusu“ a výtvarně upravené zastávce
+			č.&nbsp;14. Tentokrát galerie nečeká na návštěvníky, vyjíždí sama za nimi.
 		</p>
 		<p>Rodí se Mykoversum - organismus, který prorůstá městem a zve všechny ke hře.</p>
 	</div>
@@ -115,11 +114,11 @@
 	</div>
 	<div class="wrapper">
 		<b>
-			Každou houbu někdo objevil ve své fantazii a zaznamenal ji tak, aby mohla růst i ve fantazii
+			Každou houbu někdo objevil ve své fantazii a zaznamenal ji tak, aby mohla růst i&nbsp;ve fantazii
 			druhých.
 		</b>
 		<p>
-			Každá z 88 hub v Atlasu vznikla jako svébytné literárně-výtvarné dílo - od nápadu přes
+			Každá z&nbsp;88 hub v&nbsp;Atlasu vznikla jako svébytné literárně-výtvarné dílo - od nápadu přes
 			tvarosloví až po výtvarné ztvárnění a jazykovou hříčku.
 		</p>
 		<p>
@@ -127,7 +126,7 @@
 			Anežky České, oboru s více než třicetiletou tradicí, který se mění a roste skrze své lidi.
 		</p>
 		<p>
-			Vizuální identitu vtisklo projektu grafické studio Voala s respektem k jemnosti, humoru a
+			Vizuální identitu vtisklo projektu grafické studio Voala s&nbsp;respektem k&nbsp;jemnosti, humoru a
 			rukopisu každé houby.
 		</p>
 	</div>
@@ -136,12 +135,11 @@
 	<Header heading="galerie" subheading="Exposio sub caelo" />
 	<div class="wrapper">
 		<b>
-			Když galerie opustí zdi, i obyčejná jízda autobusem se může proměnit<br />
+			Když galerie opustí zdi, i&nbsp;obyčejná jízda autobusem se může proměnit<br />
 			ve výpravu do světa imaginace.
 		</b>
 		<p>
-			<b>Houbobus</b> - speciálně polepený linkový autobus - se stal pojízdnou galerií. Spolu s
-			výtvarně upravenou <b>zastávkou č. 14</b> na autobusovém nádraží vtahují cestující i kolemjdoucí
+			<b>Houbobus</b> - speciálně polepený linkový autobus - se stal pojízdnou galerií. Spolu s&nbsp;výtvarně upravenou <b>zastávkou č.&nbsp;14</b> na autobusovém nádraží vtahují cestující i&nbsp;kolemjdoucí
 			do fantazijního světa Atlasu podivných hub.
 		</p>
 	</div>
@@ -154,35 +152,35 @@
 		<Example
 			thumbnail="/examples/0.jpg"
 			label="Parohlíz&nbsp;lupadřivý"
-			desc="Parochialituberi&nbsp;foliesis<br>Daniel Hinšt (autor ilustrace)"
+			desc="<i>Parochialituberi&nbsp;foliesis</i><br>Daniel Hinšt (autor&nbsp;ilustrace)"
 			href="https://www.youtube.com/watch?v=p7SZ0xqDimQ"
 		/>
 		<Example
 			thumbnail="/examples/1.jpg"
-			label="Mocho&nbsp;mů(r)ka"
-			desc="Mocho&nbsp;pléna muscárum<br>Natálie Herzová"
+			label="Mocho&nbsp;můr(k)a"
+			desc="<i>Mocho&nbsp;pléna</i> muscárum<br>Natálie Herzová (autorka&nbsp;ilustrace)"
 			href="https://www.youtube.com/watch?v=b-MWUdJOMt8"
 		/>
 		<Example
 			thumbnail="/examples/2.jpg"
-			label="Lucerník&nbsp;Bažinný"
-			desc="Paludis&nbsp;laternae<br>Zuzana Boháčová"
+			label="Lucerník&nbsp;bažinný"
+			desc="<i>Paludis&nbsp;laternae</i><br>Zuzana Boháčová (autorka&nbsp;ilustrace)"
 			href="https://www.youtube.com/watch?v=oC3P0qANRho"
 		/>
 		<Example
 			thumbnail="/examples/3.jpg"
-			label="Měsíčnice&nbsp;Tajemná"
-			desc="Talnacuum&nbsp;lunas<br>Františka Boková"
+			label="Měsíčnice&nbsp;tajemná"
+			desc="<i>Talnacuum&nbsp;lunas</i><br>Františka Boková (autorka&nbsp;ilustrace)"
 			href="https://www.youtube.com/watch?v=6ymVWsJ4YyQ"
 		/>
 	</div>
 </div>
 <div class="content-wrapper" id="kontakt">
-	<Header heading="kontakt a partneří" subheading="Mycelium" />
+	<Header heading="kontakt a partneři" subheading="Mycelium" />
 	<div class="wrapper">
 		<b>
 			Žádná houba nevyroste bez podhoubí&nbsp;-&nbsp;to naše vytváří vztahy, důvěra<br />
-			a radost ze společného tvoření.
+			a radost ze&nbsp;společného tvoření.
 		</b>
 
 		<p>
@@ -209,7 +207,7 @@
 <div class="content-wrapper" id="footer">
 	<h1>Upozornění</h1>
 	<p class="warning">
-		Veškeré houby zobrazené na tomto webu jsou smyšlené. Jakákoli jejich podobnost s reálnými druhy
+		Veškeré houby zobrazené na tomto webu jsou smyšlené. Jakákoli jejich podobnost s&nbsp;reálnými druhy
 		je čistě náhodná&nbsp;-&nbsp;nebo vysněná.
 	</p>
 	<p class="footer">
@@ -287,6 +285,10 @@
 		width: 100%;
 		height: 2rem;
 		background: linear-gradient(to top, var(--white), transparent);
+	}
+
+	.content-wrapper#program .catch {
+		margin-bottom: 3rem;
 	}
 
 	.content-wrapper#program .wrapper {
@@ -407,6 +409,10 @@
 		}
 		.content-wrapper#tvurci .carousel-wrapper {
 			display: block;
+		}
+
+		.content-wrapper#ochutnavky b {
+			text-align: left;
 		}
 
 		.content-wrapper#ochutnavky .wrapper,
