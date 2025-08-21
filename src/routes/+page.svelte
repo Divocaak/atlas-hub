@@ -4,6 +4,7 @@
 	import Example from '$lib/Example.svelte';
 	import Header from '$lib/Header.svelte';
 	import Navbar from '$lib/Navbar.svelte';
+	import PartnersLogo from '$lib/PartnersLogo.svelte';
 </script>
 
 <Navbar />
@@ -114,20 +115,20 @@
 	</div>
 	<div class="wrapper">
 		<b>
-			Každou houbu někdo objevil ve své fantazii a zaznamenal ji tak, aby mohla růst i&nbsp;ve fantazii
-			druhých.
+			Každou houbu někdo objevil ve své fantazii a zaznamenal ji tak, aby mohla růst i&nbsp;ve
+			fantazii druhých.
 		</b>
 		<p>
-			Každá z&nbsp;88 hub v&nbsp;Atlasu vznikla jako svébytné literárně-výtvarné dílo - od nápadu přes
-			tvarosloví až po výtvarné ztvárnění a jazykovou hříčku.
+			Každá z&nbsp;88 hub v&nbsp;Atlasu vznikla jako svébytné literárně-výtvarné dílo - od nápadu
+			přes tvarosloví až po výtvarné ztvárnění a jazykovou hříčku.
 		</p>
 		<p>
 			Za vznikem knihy a celého projektu stojí 54 studentů a pedagogů oboru Užitá malba SUPŠ sv.
 			Anežky České, oboru s více než třicetiletou tradicí, který se mění a roste skrze své lidi.
 		</p>
 		<p>
-			Vizuální identitu vtisklo projektu grafické studio Voala s&nbsp;respektem k&nbsp;jemnosti, humoru a
-			rukopisu každé houby.
+			Vizuální identitu vtisklo projektu grafické studio Voala s&nbsp;respektem k&nbsp;jemnosti,
+			humoru a rukopisu každé houby.
 		</p>
 	</div>
 </div>
@@ -139,8 +140,9 @@
 			ve výpravu do světa imaginace.
 		</b>
 		<p>
-			<b>Houbobus</b> - speciálně polepený linkový autobus - se stal pojízdnou galerií. Spolu s&nbsp;výtvarně upravenou <b>zastávkou č.&nbsp;14</b> na autobusovém nádraží vtahují cestující i&nbsp;kolemjdoucí
-			do fantazijního světa Atlasu podivných hub.
+			<b>Houbobus</b> - speciálně polepený linkový autobus - se stal pojízdnou galerií. Spolu
+			s&nbsp;výtvarně upravenou <b>zastávkou č.&nbsp;14</b> na autobusovém nádraží vtahují cestující
+			i&nbsp;kolemjdoucí do fantazijního světa Atlasu podivných hub.
 		</p>
 	</div>
 </div>
@@ -198,17 +200,36 @@
 		</p>
 	</div>
 	<div class="partners">
-		<img src="/partners/0.png" alt="partners logos" />
-		<img src="/partners/1.png" alt="partners logos" />
-		<img src="/partners/2.png" alt="partners logos" />
-		<img src="/partners/3.png" alt="partners logos" />
+		<PartnersLogo href="https://www.blueblue.cz/" src="/logo/blueblue.png" />
+		<PartnersLogo href="https://www.busem.cz/" src="/logo/busem.png" />
+		<PartnersLogo
+			href="https://www.ckrumlov.cz/cz/mesto-cesky-krumlov/"
+			src="/logo/ceskykrumlov.png"
+		/>
+		<PartnersLogo
+			href="https://www.ckrumlov.info/cz/tym-dmo-cesky-krumlov-region/"
+			src="/logo/ckregion.png"
+		/>
+		<PartnersLogo href="https://ceskokrumlovsky.denik.cz/" src="/logo/denik.png" />
+		<PartnersLogo href="https://www.dzs.cz/europe-goes-local" src="/logo/europegoeslocal.png" />
+		<PartnersLogo href="/" src="/logo/gyvy.png" />
+		<PartnersLogo href="https://www.jc1.cz/" src="/logo/jcjedna.png" />
+		<PartnersLogo href="https://www.kraj-jihocesky.cz/" src="/logo/jihoceskykraj.png" />
+		<PartnersLogo href="https://lesycr.cz/" src="/logo/lesycr.png" />
+		<PartnersLogo
+			href="https://www.knih-ck.cz/cz/mestska-knihovna-cesky-krumlov/"
+			src="/logo/mestskaknihovna.png"
+		/>
+		<PartnersLogo href="https://www.stabilo.com/cz/" src="/logo/stabilo.png" />
+		<PartnersLogo href="https://www.supsck.cz/" src="/logo/supsck.png" />
+		<PartnersLogo href="https://www.voala.cz/" src="/logo/voala.png" />
 	</div>
 </div>
 <div class="content-wrapper" id="footer">
 	<h1>Upozornění</h1>
 	<p class="warning">
-		Veškeré houby zobrazené na tomto webu jsou smyšlené. Jakákoli jejich podobnost s&nbsp;reálnými druhy
-		je čistě náhodná&nbsp;-&nbsp;nebo vysněná.
+		Veškeré houby zobrazené na tomto webu jsou smyšlené. Jakákoli jejich podobnost s&nbsp;reálnými
+		druhy je čistě náhodná&nbsp;-&nbsp;nebo vysněná.
 	</p>
 	<p class="footer">
 		&copy; 2025 Atlas hub - MgA. Věra Chovancová | Design:&nbsp;
@@ -360,10 +381,13 @@
 
 	.content-wrapper#kontakt .partners {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: repeat(7, 1fr);
 		grid-template-rows: 1fr 1fr;
 		gap: 2rem;
 		margin: 6rem 0;
+
+		align-items: center;
+		justify-items: center;
 	}
 
 	.content-wrapper#footer {
@@ -415,10 +439,14 @@
 			text-align: left;
 		}
 
-		.content-wrapper#ochutnavky .wrapper,
-		.content-wrapper#kontakt .partners {
+		.content-wrapper#ochutnavky .wrapper {
 			display: flex;
 			flex-direction: column;
+		}
+
+		.content-wrapper#kontakt .partners {
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: repeat(7, 1fr);
 		}
 	}
 </style>
