@@ -200,29 +200,29 @@
 		</p>
 	</div>
 	<div class="partners">
-		<PartnersLogo href="https://www.blueblue.cz/" src="/logo/blueblue.png" />
-		<PartnersLogo href="https://www.busem.cz/" src="/logo/busem.png" />
-		<PartnersLogo
-			href="https://www.ckrumlov.cz/cz/mesto-cesky-krumlov/"
-			src="/logo/ceskykrumlov.png"
-		/>
-		<PartnersLogo
-			href="https://www.ckrumlov.info/cz/tym-dmo-cesky-krumlov-region/"
-			src="/logo/ckregion.png"
-		/>
-		<PartnersLogo href="https://ceskokrumlovsky.denik.cz/" src="/logo/denik.png" />
-		<PartnersLogo href="https://www.dzs.cz/europe-goes-local" src="/logo/europegoeslocal.png" />
-		<PartnersLogo href="/" src="/logo/gyvy.png" />
-		<PartnersLogo href="https://www.jc1.cz/" src="/logo/jcjedna.png" />
-		<PartnersLogo href="https://www.kraj-jihocesky.cz/" src="/logo/jihoceskykraj.png" />
-		<PartnersLogo href="https://lesycr.cz/" src="/logo/lesycr.png" />
 		<PartnersLogo
 			href="https://www.knih-ck.cz/cz/mestska-knihovna-cesky-krumlov/"
 			src="/logo/mestskaknihovna.png"
 		/>
-		<PartnersLogo href="https://www.stabilo.com/cz/" src="/logo/stabilo.png" />
+		<PartnersLogo href="https://www.kraj-jihocesky.cz/" src="/logo/jihoceskykraj.png" />
+		<PartnersLogo
+			href="https://www.ckrumlov.cz/cz/mesto-cesky-krumlov/"
+			src="/logo/ceskykrumlov.png"
+		/>
+		<PartnersLogo href="https://www.busem.cz/" src="/logo/busem.png" />
+		<PartnersLogo href="https://www.blueblue.cz/" src="/logo/blueblue.png" />
+		<PartnersLogo href="https://www.dzs.cz/europe-goes-local" src="/logo/europegoeslocal.png" />
+		<PartnersLogo href="https://www.jc1.cz/" src="/logo/jcjedna.png" />
 		<PartnersLogo href="https://www.supsck.cz/" src="/logo/supsck.png" />
+		<PartnersLogo href="https://lesycr.cz/" src="/logo/lesycr.png" />
+		<PartnersLogo href="https://www.stabilo.com/cz/" src="/logo/stabilo.png" />
+		<PartnersLogo href="https://ceskokrumlovsky.denik.cz/" src="/logo/denik.png" />
+		<PartnersLogo href="/" src="/logo/gyvy.png" />
 		<PartnersLogo href="https://www.voala.cz/" src="/logo/voala.png" />
+		<PartnersLogo
+			href="https://www.ckrumlov.info/cz/tym-dmo-cesky-krumlov-region/"
+			src="/logo/ckregion.png"
+		/>
 	</div>
 </div>
 <div class="content-wrapper" id="footer">
