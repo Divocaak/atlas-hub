@@ -155,7 +155,7 @@
 			thumbnail="/examples/0.jpg"
 			label="Parohlíz&nbsp;lupadřivý"
 			desc="<i>Parochialituberi&nbsp;foliesis</i><br>Daniel Hinšt (autor&nbsp;ilustrace)"
-			href="https://www.youtube.com/watch?v=p7SZ0xqDimQ"
+			href="https://www.youtube.com/watch?v=bsW_9V4F9ho"
 		/>
 		<Example
 			thumbnail="/examples/1.jpg"
