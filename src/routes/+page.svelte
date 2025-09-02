@@ -27,7 +27,7 @@
 		desc="Za přítomnosti autorů, hudby i&nbsp;hub."
 	/>
 	<Event
-		date="26. 9. - 28. 11."
+		date="26. 9. - 13. 11."
 		label="Výstava ilustrací knihy"
 		desc="Imaginární houby zapouští kořeny mezi regály knih."
 	/>
