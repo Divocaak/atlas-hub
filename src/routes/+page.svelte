@@ -75,6 +75,7 @@
 			V Krumlově vyrostly houby, jaké svět dosud nespatřil.<br />
 			Nezrodily se ze spor, ale z&nbsp;imaginace.
 		</b>
+		<p><a class="underlined" target="_blank" href="https://www.facebook.com/share/v/1HtMxXhf9Y/">Reportáž JČ1</a></p>
 		<p>
 			Atlas podivných hub lesů a&nbsp;strání je výtvarně-literární projekt studentů a&nbsp;pedagogů
 			oboru Užitá malba Střední uměleckoprůmyslové školy sv.&nbsp;Anežky České. Propojuje umění,
@@ -329,6 +330,10 @@
 
 	.content-wrapper#o-projektu {
 		background-color: color-mix(in srgb, var(--green) 10%, transparent);
+	}
+
+	.content-wrapper#o-projektu a {
+		/* background-color: color-mix(in srgb, var(--green) 10%, transparent); */
 	}
 
 	.content-wrapper#o-projektu .wrapper,
